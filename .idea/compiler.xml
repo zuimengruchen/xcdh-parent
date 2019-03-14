@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="xcdh-common" />
+        <module name="xcdh-erueka-server" />
+        <module name="xcdh-gateway" />
+        <module name="xcdh-pojo" />
+        <module name="xcdh-secrah" />
+        <module name="xcdh-server" />
+        <module name="xcdh-service" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="xcdh-dao" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="xcdh-common" options="-parameters" />
+      <module name="xcdh-dao" options="-parameters" />
+      <module name="xcdh-erueka-server" options="-parameters" />
+      <module name="xcdh-gateway" options="-parameters" />
+      <module name="xcdh-pojo" options="-parameters" />
+      <module name="xcdh-secrah" options="-parameters" />
+      <module name="xcdh-server" options="-parameters" />
+      <module name="xcdh-service" options="-parameters" />
+    </option>
+  </component>
+</project>
